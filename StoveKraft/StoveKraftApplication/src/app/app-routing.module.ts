@@ -1,7 +1,18 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { HomePageComponent } from './home-page/home-page.component';
+import { CookWareComponent } from './home-page/cook-ware/cook-ware.component';
+import { KitchenSetsComponent } from './home-page/cook-ware/kitchen-sets/kitchen-sets.component';
+import { AppComponent } from './app.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'cookware', component: CookWareComponent },
+  { path: 'kitchenset', component: KitchenSetsComponent },
+  { path: 'home',        component: HomePageComponent },
+  { path: 'start', component: AppComponent },
+  { path: '',   redirectTo: '/start', pathMatch: 'full' },
+ 
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
