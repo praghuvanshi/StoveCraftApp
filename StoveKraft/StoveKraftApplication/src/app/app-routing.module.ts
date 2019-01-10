@@ -1,5 +1,6 @@
 
 import { NgModule } from '@angular/core';
+import { IndexPageComponent } from './index-page/index-page.component';
 import { Routes, RouterModule } from '@angular/router';
 import { HomePageComponent } from './home-page/home-page.component';
 import { CookWareComponent } from './home-page/cook-ware/cook-ware.component';
@@ -10,8 +11,8 @@ const routes: Routes = [
   { path: 'cookware', component: CookWareComponent },
   { path: 'kitchenset', component: KitchenSetsComponent },
   { path: 'home',        component: HomePageComponent },
-  { path: 'start', component: AppComponent },
-  { path: '',   redirectTo: '/start', pathMatch: 'full' },
+  { path: 'index', component: IndexPageComponent },
+  { path: '', redirectTo: '/index', pathMatch: 'full' }
  
 ];
 

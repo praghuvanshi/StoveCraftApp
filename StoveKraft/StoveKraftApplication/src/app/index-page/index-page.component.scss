@@ -1,0 +1,29 @@
+.logo {
+  height: 80px;
+}
+
+.welcome-msg {
+  color: #ffffff;
+  font-style: "HelveticaNeue-CondensedBold";
+  font-size: 18pt;
+}
+
+.second-line-welcome {
+  color: #ffffff;
+  font-style: "HelveticaNeue-CondensedBold";
+  font-size: 14pt;
+}
+
+.begin-btn {
+  background: none;
+  color: #ffffff;
+  font-size: 14pt;
+  padding: 5px 30px 5px 30px;
+  border: 2px solid #ffffff;
+}
+
+.home-page-background {
+  background-size: cover;
+  background-image: url('/assets/images/4F0.png');
+  height: -webkit-fill-available;
+}
