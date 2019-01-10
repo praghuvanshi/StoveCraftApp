@@ -1,5 +1,6 @@
+import { BachelorsComponent } from './home-page/cook-ware/bachelors/bachelors.component';
 
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { IndexPageComponent } from './index-page/index-page.component';
 import { Routes, RouterModule } from '@angular/router';
 import { HomePageComponent } from './home-page/home-page.component';
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'kitchenset', component: KitchenSetsComponent },
   { path: 'home',        component: HomePageComponent },
   { path: 'index', component: IndexPageComponent },
+  { path: 'bachelor', component: BachelorsComponent},
   { path: '', redirectTo: '/index', pathMatch: 'full' }
  
 ];
