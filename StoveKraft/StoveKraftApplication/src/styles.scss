@@ -3,8 +3,10 @@
     border-style: solid;
     border-color: black;
     background-color: white;
-    height: 50px;
-    width: 30%;
+    height: 45px;
+    width: 65%;
+    font-weight: bold;
+    font-size: 14px;
 }
 .cook-ware-text{
     font-size: 18px;
@@ -13,4 +15,20 @@
 .images-cook{
     height: 250px;
     width: 350px;
+}
+.nav-item-text{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 8%;
+}
+.icon{
+    height: 35px;
+}
+.search-icon{
+    height: 25px;
+    padding-right: 20px;
+}
+.cart-icon{
+    height: 25px;
+    padding-left: 20px;
 }
