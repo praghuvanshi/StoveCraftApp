@@ -1,0 +1,89 @@
+<nav class="navbar navbar-expand-sm bg-white navbar-dark border-bottom border-dark">
+  <a class="navbar-brand ">
+    <img class="icon" src="../../../assets/images/logo.jpg">
+  </a>
+  <ul class="nav tab-group">
+    <li class="nav-item">
+      <a class="nav-link tabItems">Cookware</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link tabItems">Kitchen Appliances</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link tabItems">LED's</a>
+    </li>
+  </ul>
+  <div class="d-flex ml-auto flex-row">
+    <div class="border-right">
+      <img class="search-icon" src="../../assets/images/page1.png">
+    </div>
+    <div>
+      <img class="cart-icon" src="../../assets/images/shoppingcart.png">
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+  <div class="text-center mt-4 heading">
+    A bachelor&apos;s life is a fine breakfast, a flat lunch, and a miserable dinner.
+    <br> Enjoy aur curated list of cooksets for bachelors who like to cook on weekends.
+  </div>
+  <div class="row">
+    <div class="col-sm-3 offset-sm-1">Cookware/bachelors/i cook on weekends</div>
+    <div class="col-sm-6">
+      <div class="row">
+        <div class="col-sm-2">
+          Color
+        </div>
+        <div class="col-sm-8 row">
+          <div class="col-2 color-box"></div>
+          <div class=" col-2 color-box"></div>
+          <div class="col-2 color-box"></div>
+          <div class=" col-2 color-box"></div>
+          <div class=" col-2 color-box"></div>
+        </div>
+
+      </div>
+
+
+
+      <div class="row">
+        <div class="col-sm-2">
+
+        </div>
+        <div class="col-sm-8 row">
+          <div class="col-2 color-box"></div>
+          <div class=" col-2 color-box"></div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+    <div class="col-sm-2">Price <ng5-slider [(value)]="value" [options]="options"></ng5-slider></div>
+  </div>
+
+  <ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <img [src]="images[0]" alt="Random first slide">
+      <div class="carousel-caption">
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images[1]" alt="Random second slide">
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img [src]="images[2]" alt="Random third slide">
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>

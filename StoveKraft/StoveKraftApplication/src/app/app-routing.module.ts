@@ -7,6 +7,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { CookWareComponent } from './home-page/cook-ware/cook-ware.component';
 import { KitchenSetsComponent } from './home-page/cook-ware/kitchen-sets/kitchen-sets.component';
 import { AppComponent } from './app.component';
+import { CookWeekendsComponent } from './home-page/cook-ware/bachelors/cook-weekends/cook-weekends.component';
 
 const routes: Routes = [
   { path: 'cookware', component: CookWareComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'home',        component: HomePageComponent },
   { path: 'index', component: IndexPageComponent },
   { path: 'bachelor', component: BachelorsComponent},
+  { path: 'cookonweekend', component: CookWeekendsComponent},
   { path: '', redirectTo: '/index', pathMatch: 'full' }
  
 ];
