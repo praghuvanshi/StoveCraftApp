@@ -9,6 +9,7 @@ import { KitchenAppliancesComponent } from './home-page/kitchen-appliances/kitch
 import { KitchenSetsComponent } from './home-page/cook-ware/kitchen-sets/kitchen-sets.component';
 import { BachelorsComponent } from './home-page/cook-ware/bachelors/bachelors.component';
 import { IndexPageComponent } from './index-page/index-page.component';
+import { ProductPageComponent } from './product-page/product-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { IndexPageComponent } from './index-page/index-page.component';
     KitchenAppliancesComponent,
     KitchenSetsComponent,
     BachelorsComponent,
-    IndexPageComponent
+    IndexPageComponent,
+    ProductPageComponent
   ],
   imports: [
     BrowserModule,
