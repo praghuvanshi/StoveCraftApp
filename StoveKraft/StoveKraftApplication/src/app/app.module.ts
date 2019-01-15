@@ -11,6 +11,7 @@ import { BachelorsComponent } from './home-page/cook-ware/bachelors/bachelors.co
 import { IndexPageComponent } from './index-page/index-page.component';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { CustomizePageComponent } from './customize-page/customize-page.component';
+import { BillingSummaryPageComponent } from './billing-summary-page/billing-summary-page.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CustomizePageComponent } from './customize-page/customize-page.componen
     BachelorsComponent,
     IndexPageComponent,
     ProductPageComponent,
-    CustomizePageComponent
+    CustomizePageComponent,
+    BillingSummaryPageComponent
   ],
   imports: [
     BrowserModule,

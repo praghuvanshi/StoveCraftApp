@@ -1,3 +1,4 @@
+import { BillingSummaryPageComponent } from './billing-summary-page/billing-summary-page.component';
 import { CustomizePageComponent } from './customize-page/customize-page.component';
 import { BachelorsComponent } from './home-page/cook-ware/bachelors/bachelors.component';
 
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'bachelor', component: BachelorsComponent },
   { path: 'product', component: ProductPageComponent },
   { path: 'customize', component: CustomizePageComponent},
+  {path: 'summary', component: BillingSummaryPageComponent},
   { path: '', redirectTo: '/index', pathMatch: 'full' }
 
 ];
