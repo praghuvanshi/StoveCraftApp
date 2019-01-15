@@ -9,6 +9,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { CookWareComponent } from './home-page/cook-ware/cook-ware.component';
 import { KitchenSetsComponent } from './home-page/cook-ware/kitchen-sets/kitchen-sets.component';
 import { ProductPageComponent } from './product-page/product-page.component';
+import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
+import { TicketPageComponent } from './ticket-page/ticket-page.component';
 
 const routes: Routes = [
   { path: 'cookware', component: CookWareComponent },
@@ -17,8 +19,10 @@ const routes: Routes = [
   { path: 'index', component: IndexPageComponent },
   { path: 'bachelor', component: BachelorsComponent },
   { path: 'product', component: ProductPageComponent },
-  { path: 'customize', component: CustomizePageComponent},
   {path: 'summary', component: BillingSummaryPageComponent},
+  { path: 'cart', component: ShoppingCartComponent },
+  { path: 'customize', component: CustomizePageComponent },
+  { path: 'ticket', component: TicketPageComponent },
   { path: '', redirectTo: '/index', pathMatch: 'full' }
 
 ];
