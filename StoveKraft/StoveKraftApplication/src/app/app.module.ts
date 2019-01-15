@@ -25,14 +25,10 @@ import { TicketPageComponent } from './ticket-page/ticket-page.component';
     BachelorsComponent,
     IndexPageComponent,
     ProductPageComponent,
-<<<<<<< HEAD
     CustomizePageComponent,
-    BillingSummaryPageComponent
-=======
+    BillingSummaryPageComponent,
     ShoppingCartComponent,
-    CustomizePageComponent,
     TicketPageComponent
->>>>>>> 1bf86d7af20e6e991ff2b08592db3175ed8d83a0
   ],
   imports: [
     BrowserModule,
