@@ -12,6 +12,7 @@ import { IndexPageComponent } from './index-page/index-page.component';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { CustomizePageComponent } from './customize-page/customize-page.component';
+import { TicketPageComponent } from './ticket-page/ticket-page.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CustomizePageComponent } from './customize-page/customize-page.componen
     IndexPageComponent,
     ProductPageComponent,
     ShoppingCartComponent,
-    CustomizePageComponent
+    CustomizePageComponent,
+    TicketPageComponent
   ],
   imports: [
     BrowserModule,
