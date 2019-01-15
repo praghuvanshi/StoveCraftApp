@@ -10,6 +10,7 @@ import { KitchenSetsComponent } from './home-page/cook-ware/kitchen-sets/kitchen
 import { BachelorsComponent } from './home-page/cook-ware/bachelors/bachelors.component';
 import { IndexPageComponent } from './index-page/index-page.component';
 import { ProductPageComponent } from './product-page/product-page.component';
+import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProductPageComponent } from './product-page/product-page.component';
     KitchenSetsComponent,
     BachelorsComponent,
     IndexPageComponent,
-    ProductPageComponent
+    ProductPageComponent,
+    ShoppingCartComponent
   ],
   imports: [
     BrowserModule,
