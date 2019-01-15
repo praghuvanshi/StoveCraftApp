@@ -1,3 +1,4 @@
+import { CustomizePageComponent } from './customize-page/customize-page.component';
 import { BachelorsComponent } from './home-page/cook-ware/bachelors/bachelors.component';
 
 import { NgModule, Component } from '@angular/core';
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'index', component: IndexPageComponent },
   { path: 'bachelor', component: BachelorsComponent },
   { path: 'product', component: ProductPageComponent },
+  { path: 'customize', component: CustomizePageComponent},
   { path: '', redirectTo: '/index', pathMatch: 'full' }
 
 ];
