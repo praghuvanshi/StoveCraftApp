@@ -11,6 +11,7 @@ import { BachelorsComponent } from './home-page/cook-ware/bachelors/bachelors.co
 import { IndexPageComponent } from './index-page/index-page.component';
 import { ProductPageComponent } from './product-page/product-page.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
+import { CustomizePageComponent } from './customize-page/customize-page.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
     BachelorsComponent,
     IndexPageComponent,
     ProductPageComponent,
-    ShoppingCartComponent
+    ShoppingCartComponent,
+    CustomizePageComponent
   ],
   imports: [
     BrowserModule,
