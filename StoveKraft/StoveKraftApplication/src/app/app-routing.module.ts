@@ -6,16 +6,17 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomePageComponent } from './home-page/home-page.component';
 import { CookWareComponent } from './home-page/cook-ware/cook-ware.component';
 import { KitchenSetsComponent } from './home-page/cook-ware/kitchen-sets/kitchen-sets.component';
-import { AppComponent } from './app.component';
+import { ProductPageComponent } from './product-page/product-page.component';
 
 const routes: Routes = [
   { path: 'cookware', component: CookWareComponent },
   { path: 'kitchenset', component: KitchenSetsComponent },
-  { path: 'home',        component: HomePageComponent },
+  { path: 'home', component: HomePageComponent },
   { path: 'index', component: IndexPageComponent },
-  { path: 'bachelor', component: BachelorsComponent},
+  { path: 'bachelor', component: BachelorsComponent },
+  { path: 'product', component: ProductPageComponent },
   { path: '', redirectTo: '/index', pathMatch: 'full' }
- 
+
 ];
 
 @NgModule({
