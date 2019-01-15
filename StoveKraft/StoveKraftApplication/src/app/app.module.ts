@@ -10,6 +10,7 @@ import { KitchenSetsComponent } from './home-page/cook-ware/kitchen-sets/kitchen
 import { BachelorsComponent } from './home-page/cook-ware/bachelors/bachelors.component';
 import { IndexPageComponent } from './index-page/index-page.component';
 import { ProductPageComponent } from './product-page/product-page.component';
+import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { CustomizePageComponent } from './customize-page/customize-page.component';
 
 @NgModule({
@@ -22,6 +23,7 @@ import { CustomizePageComponent } from './customize-page/customize-page.componen
     BachelorsComponent,
     IndexPageComponent,
     ProductPageComponent,
+    ShoppingCartComponent,
     CustomizePageComponent
   ],
   imports: [
