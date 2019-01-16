@@ -11,6 +11,8 @@ import { KitchenSetsComponent } from './home-page/cook-ware/kitchen-sets/kitchen
 import { ProductPageComponent } from './product-page/product-page.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { TicketPageComponent } from './ticket-page/ticket-page.component';
+import { AppComponent } from './app.component';
+import { CookWeekendsComponent } from './home-page/cook-ware/bachelors/cook-weekends/cook-weekends.component';
 
 const routes: Routes = [
   { path: 'cookware', component: CookWareComponent },
@@ -23,12 +25,14 @@ const routes: Routes = [
   { path: 'cart', component: ShoppingCartComponent },
   { path: 'customize', component: CustomizePageComponent },
   { path: 'ticket', component: TicketPageComponent },
+  { path: 'bachelor', component: BachelorsComponent},
+  { path: 'cookonweekend', component: CookWeekendsComponent},
   { path: '', redirectTo: '/index', pathMatch: 'full' }
 
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

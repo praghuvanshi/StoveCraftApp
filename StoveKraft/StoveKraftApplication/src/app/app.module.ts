@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
+import { Ng5SliderModule } from 'ng5-slider';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
@@ -14,6 +16,7 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { CustomizePageComponent } from './customize-page/customize-page.component';
 import { BillingSummaryPageComponent } from './billing-summary-page/billing-summary-page.component';
 import { TicketPageComponent } from './ticket-page/ticket-page.component';
+import { CookWeekendsComponent } from './home-page/cook-ware/bachelors/cook-weekends/cook-weekends.component';
 
 @NgModule({
   declarations: [
@@ -28,13 +31,16 @@ import { TicketPageComponent } from './ticket-page/ticket-page.component';
     CustomizePageComponent,
     BillingSummaryPageComponent,
     ShoppingCartComponent,
-    TicketPageComponent
+    TicketPageComponent,
+    CookWeekendsComponent
   ],
   imports: [
+    NgbModule.forRoot(),
+    Ng5SliderModule,
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [NgbCarouselConfig],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
