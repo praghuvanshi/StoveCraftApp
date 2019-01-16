@@ -22,13 +22,13 @@ const routes: Routes = [
   { path: 'index', component: IndexPageComponent },
   { path: 'bachelor', component: BachelorsComponent },
   { path: 'product', component: ProductPageComponent },
-  {path: 'summary', component: BillingSummaryPageComponent},
+  { path: 'summary', component: BillingSummaryPageComponent },
   { path: 'cart', component: ShoppingCartComponent },
   { path: 'customize', component: CustomizePageComponent },
   { path: 'ticket', component: TicketPageComponent },
-  { path: 'bachelor', component: BachelorsComponent},
-  { path: 'cookonweekend', component: CookWeekendsComponent},
-  { path: 'compareproducts', component:CompareProductsComponent},
+  { path: 'bachelor', component: BachelorsComponent },
+  { path: 'cookonweekend', component: CookWeekendsComponent },
+  { path: 'compareproducts', component: CompareProductsComponent },
   { path: '', redirectTo: '/index', pathMatch: 'full' }
 
 ];
