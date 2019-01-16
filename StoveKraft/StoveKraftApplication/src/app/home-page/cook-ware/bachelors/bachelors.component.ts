@@ -8,11 +8,16 @@ import {Router} from '@angular/router';
 })
 export class BachelorsComponent implements OnInit {
 
-  constructor(private router:Router) { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
-  getCookOnWeekends(){
+
+  moveToCookware() {
+    this.router.navigateByUrl('/kitchenset');
+  }
+
+  getCookOnWeekends() {
     this.router.navigateByUrl('/cookonweekend');
   }
 }
