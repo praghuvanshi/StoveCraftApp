@@ -14,8 +14,8 @@
     font-weight: bold;
 }
 .images-cook{
-    height: 250px;
-    width: 350px;
+    height: 210px;
+    width: 340px;
 }
 .nav-item-text{
     font-size: 14px;
@@ -32,4 +32,56 @@
 .cart-icon{
     height: 25px;
     padding-left: 20px;
+}
+.color-box{
+    margin-left: 2%;
+    margin-bottom: 1%;
+    border-radius: 10%;
+    height: 25px;
+    border-style: solid;
+    border-color: #cec7c7;
+    border-width: 1px;
+}
+.carousel{
+   
+    padding: 25px;
+    /* box-shadow: 5px 10px #888888; */
+    /* -webkit-box-shadow: 0 0 5px 2px #be4747; */
+    -moz-box-shadow: 0 0 5px 2px #fff;
+    box-shadow: 0 0 5px 2px #a39f9f;
+    height:450px;
+}
+
+.carousel-inner {
+    padding-top: 5%;
+}
+
+.lower-div-space{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.background-red{
+    background-color: rgb(182, 85, 81);
+}
+.background-grey{
+    background-color:rgb(184, 184, 184);;
+}
+.background-sky{
+    background-color: rgb(153, 204 ,217);
+}
+.background-yellow{
+    background-color: rgb(239,193, 99);
+}
+.background-pink{
+    background-color:rgb(215 ,175, 197);
+}
+.background-voilet{
+    background-color: rgb(158, 134, 184);
+}
+.background-black{
+    background-color: rgb(68,68,68);
+}
+.background-brown{
+    background-color: rgb(179 ,127, 120);
 }

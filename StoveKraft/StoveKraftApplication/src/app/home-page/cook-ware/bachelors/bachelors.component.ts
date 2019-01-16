@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-bachelors',
@@ -17,4 +17,7 @@ export class BachelorsComponent implements OnInit {
     this.router.navigateByUrl('/kitchenset');
   }
 
+  getCookOnWeekends() {
+    this.router.navigateByUrl('/cookonweekend');
+  }
 }
