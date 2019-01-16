@@ -11,6 +11,7 @@ import { KitchenSetsComponent } from './home-page/cook-ware/kitchen-sets/kitchen
 import { ProductPageComponent } from './product-page/product-page.component';
 import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { TicketPageComponent } from './ticket-page/ticket-page.component';
+import { CompareProductsComponent } from './compare-products/compare-products.component';
 import { AppComponent } from './app.component';
 import { CookWeekendsComponent } from './home-page/cook-ware/bachelors/cook-weekends/cook-weekends.component';
 
@@ -27,6 +28,7 @@ const routes: Routes = [
   { path: 'ticket', component: TicketPageComponent },
   { path: 'bachelor', component: BachelorsComponent},
   { path: 'cookonweekend', component: CookWeekendsComponent},
+  { path: 'compareproducts', component:CompareProductsComponent},
   { path: '', redirectTo: '/index', pathMatch: 'full' }
 
 ];

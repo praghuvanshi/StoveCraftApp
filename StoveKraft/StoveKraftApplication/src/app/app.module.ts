@@ -17,6 +17,7 @@ import { CustomizePageComponent } from './customize-page/customize-page.componen
 import { BillingSummaryPageComponent } from './billing-summary-page/billing-summary-page.component';
 import { TicketPageComponent } from './ticket-page/ticket-page.component';
 import { CookWeekendsComponent } from './home-page/cook-ware/bachelors/cook-weekends/cook-weekends.component';
+import { CompareProductsComponent } from './compare-products/compare-products.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { CookWeekendsComponent } from './home-page/cook-ware/bachelors/cook-week
     BillingSummaryPageComponent,
     ShoppingCartComponent,
     TicketPageComponent,
-    CookWeekendsComponent
+    CookWeekendsComponent,
+    CompareProductsComponent
   ],
   imports: [
     NgbModule.forRoot(),
