@@ -12,6 +12,9 @@ export class KitchenSetsComponent implements OnInit {
 
   ngOnInit() {
   }
+  moveToCookware() {
+    this.router.navigateByUrl('/kitchenset');
+  }
   getBachelorsChoice(){
     this.router.navigateByUrl('/bachelor');
    }
