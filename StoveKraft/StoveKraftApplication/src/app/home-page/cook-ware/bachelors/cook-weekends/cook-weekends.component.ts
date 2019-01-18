@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
 import { Options } from 'ng5-slider';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-cook-weekends',
@@ -10,7 +11,7 @@ import { Options } from 'ng5-slider';
 })
 export class CookWeekendsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   value: number = 100;
   options: Options = {
@@ -21,4 +22,8 @@ export class CookWeekendsComponent implements OnInit {
   ngOnInit() {
   }
   images = [1, 2, 3].map(() => `https://picsum.photos/900/500?random&t=${Math.random()}`);
+
+  moveToCookware() {
+    this.router.navigateByUrl('/kitchenset');
+  }
 }
