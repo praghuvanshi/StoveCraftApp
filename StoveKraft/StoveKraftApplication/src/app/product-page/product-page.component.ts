@@ -15,5 +15,8 @@ export class ProductPageComponent implements OnInit {
   moveToCustomize() {
     this.router.navigateByUrl('/customize');
   }
+  navigateToComparePage(){
+    this.router.navigateByUrl('/compareproducts');
+  }
 
 }
