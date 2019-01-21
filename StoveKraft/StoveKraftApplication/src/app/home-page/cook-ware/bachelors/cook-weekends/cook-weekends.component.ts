@@ -25,8 +25,8 @@ export class CookWeekendsComponent implements OnInit {
   moveToCookware() {
     this.router.navigateByUrl('/kitchenset');
   }
-  moveToCompare() {
-    this.router.navigateByUrl('/compareproducts');
+  navigateToSetOne(){
+    this.router.navigateByUrl('/product');
   }
   images = [1, 2, 3].map(() => `https://picsum.photos/900/500?random&t=${Math.random()}`);
 }
