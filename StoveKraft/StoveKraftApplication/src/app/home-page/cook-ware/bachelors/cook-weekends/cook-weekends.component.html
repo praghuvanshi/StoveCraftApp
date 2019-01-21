@@ -2,10 +2,20 @@
   <a class="navbar-brand ">
     <img class="icon" src="../../../assets/images/logo.jpg">
   </a>
-  <div class="nav-item-text" (click)="moveToCookware()">Cookware</div>
-    <div  class="nav-item-text">Kitchen Appliances</div>
-    <div class="nav-item-text">LED's</div>
-    <div class="nav-item-text">Home Utility</div>
+  <ul class="nav tab-group">
+    <li class="nav-item">
+      <a class="nav-link tabItems" (click)="moveToCookware()" >Cookware</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link tabItems" >Kitchen Appliances</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link tabItems" >LED's</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link tabItems" >Home Utility</a>
+    </li>
+  </ul>
   <div class="d-flex ml-auto flex-row">
     <div class="border-right">
       <img class="search-icon" src="../../assets/images/page1.png">
