@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Router} from '@angular/router';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-compare-products',
   templateUrl: './compare-products.component.html',
@@ -7,12 +7,15 @@ import {Router} from '@angular/router';
 })
 export class CompareProductsComponent implements OnInit {
 
-  constructor(private router:Router) { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
   moveToCookware() {
     this.router.navigateByUrl('/kitchenset');
+  }
+  moveToCart() {
+    this.router.navigateByUrl('/cart');
   }
 
 }
